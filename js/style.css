@@ -1,0 +1,15 @@
+/* For Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 12px;
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000;
+}
+
+/* For Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #000 #000;
+}
