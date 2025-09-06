@@ -17,3 +17,37 @@ document.querySelector('hi').id = "something";
 // console.log(paragraph.innerHTML);
 
 // paragraph.innerHTML = '<h4>Hiii</h4>'
+
+//  styling
+
+// const allLinks = document.querySelectorAll('a')
+
+// const allLinks = document.querySelectorAll('a')
+// console.log(allLinks)
+
+// for (const link of allLinks) {
+//     link.style.color = 'green'
+// }
+
+for (const link of allLinks) {
+    // link.style.color = 'teal'
+    // link.style.textDecorationLine = 'none'
+    // link.style.fontWeight = '700'
+    // link.style.fontFamily = 'cursive'
+    // link.style.fontSize = '18px'
+
+    // link.style.cssText = `
+    //     color: teal;
+    //     text-decoration-line: none;
+    //     font-weight: 700;
+    //     font-family: cursive;
+    //     font-size: 18px;
+    // `
+
+    // link.className = 'green-link'
+    // link.setAttribute('class', 'green-link')
+
+    link.classList.add('green-link')
+    link.classList.remove('my-link')
+    // link.classList.toggle('my-link')
+}
